@@ -13,4 +13,9 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  buscarProducto(termino: string) {
+    alert(termino);
+    
+  }
+
 }
